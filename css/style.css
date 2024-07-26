@@ -193,6 +193,7 @@
   position: relative;
   border: 1px solid #c1c5cd;
   border-radius: 1rem;
+  background-color: #fff;
 }
 
 /* article *n img */
@@ -289,8 +290,7 @@
   position: absolute;
   width: 100%;
   height: 42rem;
-  bottom: 40%;
-  z-index: 1;
+  top: 50%;
   background: linear-gradient(#eff5fb, #ffffff);
   border-radius: 100% 100% 0 0 / 2.5rem 2.5rem 0 0;
 }
