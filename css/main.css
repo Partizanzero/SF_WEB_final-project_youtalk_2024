@@ -1,0 +1,87 @@
+@import url(variables.css);
+/* RESET STYLES */
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav > ul > li {
+  list-style-type: none;
+}
+
+img {
+  border-style: none;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+/* ALL */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  position: relative;
+  font-family: var(--font-primary);
+  font-size: 16px;
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--text-primary-color);
+  font-family: var(--font-primary);
+}
+
+ul li::marker {
+  font-size: 1.5rem;
+  color: #03b2a5;
+}
+
+ul ul {
+  list-style-type: disc;
+}
+
+img button {
+  cursor: pointer;
+}
+
+h1 {
+  font-family: var(--font-primary);
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  color: var(--text-primary-color);
+}
+
+h2 {
+  font-family: var(--font-primary);
+  font-weight: 700;
+  font-size: 1.1rem;
+  line-height: 1.625rem;
+  color: var(--text-primary-color);
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2rem;
+  color: var(--title-color);
+  margin-bottom: 1rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  position: relative;
+  z-index: 2;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
